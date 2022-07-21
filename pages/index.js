@@ -4,7 +4,7 @@ import styled from "styled-components"
 const Container = styled.div`
   width: 100vw;
   height: 100vh;
-  background: #6C7A89;
+  background-image: url(./bg.jpg);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -14,12 +14,13 @@ const Container = styled.div`
 const Box = styled.div`
   width: 500px;
   height: 400px;
-  background: #fff;
+  background: #cfcfcf;
   padding: 32px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 19px;
+  border-radius: 3px;
 `
 
 const Image = styled.img`
@@ -38,8 +39,8 @@ export default function Home() {
           />
         </div>
         
-        <Input placeholder="insira aqui"></Input>
-        <Input placeholder="insira aqui"></Input>
+        <Input placeholder="Email"></Input>
+        <Input placeholder="Password"></Input>
 
         <div>
           <Button type="primary" style={{width: "100%"}}> Button</Button>

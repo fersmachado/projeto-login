@@ -1,6 +1,6 @@
 import { useState } from "react";
 import styled from "styled-components";
-import Tweets from "./src/components/Tweets";
+import Tweets from "../src/components/Tweets"
 import { Button, Drawer } from 'antd';  
 
 const Container = styled.div`

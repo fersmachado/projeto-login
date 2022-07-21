@@ -12,29 +12,34 @@ const Container = styled.ul`
     overflow-y: scroll;
     height: 500px;
     gap: 6px;
+    
 `
 const Tweet = styled.div`
     display: flex;
-    text-align:center;
-    border:4px;
+    align-items: flex-start;
+    padding: 20px;
+    
 `
 const Title = styled.div`
     font-size: 20px;
 `
 
 const Descriptions = styled.div`
-    font-size: 10px
+    font-size: 10px;
+    
+    
 `
 
 const ContentImg = styled.div`
-    align-items: start;
-    padding: 4px;
     display: flex;
+   
+    
 `
 
 const ContentConteudo = styled.div`
     display: flex;
     flex-direction: column;
+    
 `
 
 function Tweets() {
@@ -91,33 +96,7 @@ function Tweets() {
                 </ContentConteudo>
             </Tweet>
 
-            {/* <Tweet>
-                <ContentImg>
-                    <Img>
-                        E
-                    </Img>
-                </ContentImg>
-                <Title>
-                    Eduardo Gandolfo
-                </Title>
-                <Descriptions>
-                    Hoje acordei com vontade de codar em python
-                </Descriptions>
-            </Tweet>
-
-            <Tweet>
-                <ContentImg>
-                    <Img>
-                        A
-                    </Img>
-                </ContentImg>
-                <Title>
-                    Anthony Gand
-                </Title>
-                <Descriptions>
-                    Aprendendo paises rs
-                </Descriptions>
-            </Tweet> */}
+           
         </Container>
     )
 }
